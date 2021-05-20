@@ -106,7 +106,17 @@ form {
     border-bottom-width: 3px;
 }
 
+.new.list::placeholder{
+    opacity: .5;
+    color: whitesmoke;
+}
+
+.new.task::placeholder{
+    opacity: .5;
+    color: var(--clr-primary);
+}
 .new:focus::placeholder{
+
     opacity: 0.5;
 }
 
