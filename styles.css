@@ -93,7 +93,7 @@ form {
 .new {
     background: transparent;
     border: 0;
-    color: inherit;
+    color: white;
     border-bottom: 1px solid currentColor;
     font-size: inherit;
     outline: none;
@@ -107,7 +107,7 @@ form {
 }
 
 .new:focus::placeholder{
-    opacity: 0.2;
+    opacity: 0.5;
 }
 
 
